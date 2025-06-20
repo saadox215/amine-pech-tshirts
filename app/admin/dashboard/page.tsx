@@ -238,7 +238,7 @@ export default function AdminDashboard() {
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <Button
-                onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                 className="bg-green-500 hover:bg-green-600 text-white"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />

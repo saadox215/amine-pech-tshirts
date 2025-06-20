@@ -29,7 +29,7 @@ Message: ${formData.message}
 
 Email: ${formData.email}`
 
-    const whatsappUrl = `https://wa.me/212621740209?text=${encodeURIComponent(whatsappMessage)}`
+    const whatsappUrl = `https://wa.me/212647267470?text=${encodeURIComponent(whatsappMessage)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -69,7 +69,7 @@ Email: ${formData.email}`
               </Link>
             </nav>
             <Button
-              onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+              onClick={() => window.open("https://wa.me/212647267470", "_blank")}
               className="bg-green-500 hover:bg-green-600 text-white"
             >
               <MessageCircle className="w-4 h-4 mr-2" />
@@ -105,10 +105,10 @@ Email: ${formData.email}`
                 <h3 className="font-semibold text-lg mb-2">WhatsApp</h3>
                 <p className="text-gray-600 mb-4">Chat with us instantly</p>
                 <Button
-                  onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                  onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                   className="bg-green-500 hover:bg-green-600 text-white"
                 >
-                  +212 621740209
+                  +212 647267470
                 </Button>
               </CardContent>
             </Card>
@@ -121,7 +121,7 @@ Email: ${formData.email}`
                 <h3 className="font-semibold text-lg mb-2">Phone</h3>
                 <p className="text-gray-600 mb-4">Call us directly</p>
                 <Button variant="outline" className="border-blue-300 text-blue-600 hover:bg-blue-50">
-                  +212 621740209
+                  +212 647267470
                 </Button>
               </CardContent>
             </Card>
@@ -274,7 +274,7 @@ Email: ${formData.email}`
           </p>
           <Button
             size="lg"
-            onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+            onClick={() => window.open("https://wa.me/212647267470", "_blank")}
             className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3"
           >
             <MessageCircle className="w-5 h-5 mr-2" />
@@ -333,10 +333,10 @@ Email: ${formData.email}`
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="text-gray-400 space-y-2">
-                <p>WhatsApp: +212 621740209</p>
+                <p>WhatsApp: +212 647267470</p>
                 <p>Available 24/7</p>
                 <Button
-                  onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                  onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                   className="bg-green-500 hover:bg-green-600 text-white mt-4"
                 >
                   Chat with us

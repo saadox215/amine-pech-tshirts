@@ -154,7 +154,7 @@ export default function ProductsPage() {
 
   const orderOnWhatsApp = (product: any) => {
     const message = `Hi! I'm interested in ordering the "${product.name}" t-shirt for ${product.price} MAD. Can you help me with the details about sizes and colors?`
-    const whatsappUrl = `https://wa.me/212621740209?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/212647267470?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -187,7 +187,7 @@ export default function ProductsPage() {
               </Link>
             </nav>
             <Button
-              onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+              onClick={() => window.open("https://wa.me/212647267470", "_blank")}
               className="bg-green-500 hover:bg-green-600 text-white"
             >
               <ShoppingBag className="w-4 h-4 mr-2" />

@@ -79,7 +79,7 @@ export default function HomePage() {
 
   const orderOnWhatsApp = (product: any) => {
     const message = `Hi! I'm interested in ordering the "${product.name}" t-shirt for ${product.price} MAD. Can you help me with the details?`
-    const whatsappUrl = `https://wa.me/212621740209?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/212647267470?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -113,7 +113,7 @@ export default function HomePage() {
             </nav>
             <div className="flex items-center space-x-4">
               <Button
-                onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                 className="bg-green-500 hover:bg-green-600 text-white"
               >
                 <ShoppingBag className="w-4 h-4 mr-2" />
@@ -155,7 +155,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                 className="border-purple-300 text-purple-600 hover:bg-purple-50 px-8 py-3"
               >
                 Contact Us
@@ -290,7 +290,7 @@ export default function HomePage() {
           </p>
           <Button
             size="lg"
-            onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+            onClick={() => window.open("https://wa.me/212647267470", "_blank")}
             className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3"
           >
             Start Shopping on WhatsApp
@@ -348,10 +348,10 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="text-gray-400 space-y-2">
-                <p>WhatsApp: +212 621740209</p>
+                <p>WhatsApp: +212 647267470</p>
                 <p>Available 24/7</p>
                 <Button
-                  onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                  onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                   className="bg-green-500 hover:bg-green-600 text-white mt-4"
                 >
                   Chat with us

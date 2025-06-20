@@ -35,7 +35,7 @@ export default function AboutPage() {
               </Link>
             </nav>
             <Button
-              onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+              onClick={() => window.open("https://wa.me/212647267470", "_blank")}
               className="bg-green-500 hover:bg-green-600 text-white"
             >
               Contact Us
@@ -163,7 +163,7 @@ export default function AboutPage() {
           </p>
           <Button
             size="lg"
-            onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+            onClick={() => window.open("https://wa.me/212647267470", "_blank")}
             className="bg-white text-purple-600 hover:bg-gray-100"
           >
             Join Our Community
@@ -245,10 +245,10 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <div className="text-gray-400 space-y-2">
-                <p>WhatsApp: +212 621740209</p>
+                <p>WhatsApp: +212 647267470</p>
                 <p>Available 24/7</p>
                 <Button
-                  onClick={() => window.open("https://wa.me/212621740209", "_blank")}
+                  onClick={() => window.open("https://wa.me/212647267470", "_blank")}
                   className="bg-green-500 hover:bg-green-600 text-white mt-4"
                 >
                   Chat with us
